@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'login/css/yay.css' %}"media="screen" title="no title"  charset="utf-8">
+        <meta charset="utf-8">
+        <title>Logged In</title>
+    </head>
+    <body>
+
+        <h1>Success! Welcome, {{request.session.username}}!<h1>
+
+    </body>
+</html>
